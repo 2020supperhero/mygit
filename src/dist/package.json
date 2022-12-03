@@ -1,0 +1,26 @@
+{
+  "name": "@cyf-super/lazy-image",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "image-lazy",
+  "repository": "https://github.com/cyf-super/react-lazy-image.git",
+  "author": "cyf-super",
+  "private": false,
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "scripts": {
+    "transpile": "babel LazyImage.js -d main --copy-files"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/preset-react": "^7.18.6"
+  }
+}
